@@ -9,3 +9,6 @@ foo:
 
 %.ico.png: %.ico
 	php test.php $<
+
+clean:
+	rm -f *.ico.png
