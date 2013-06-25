@@ -1,14 +1,11 @@
 ICO = $(wildcard *.ico)
 PNG = $(ICO:=.png)
 
-.PHONY: all foo
-all: foo $(PNG)
+.PHONY: all clean
+all: clean $(PNG)
 
 foo:
-	rm -f *.png
+	rm -f *.ico.png
 
 %.ico.png: %.ico
 	php test.php $<
-
-clean:
-	rm -f *.ico.png
