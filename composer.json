@@ -1,0 +1,12 @@
+{
+    "name": "jimparis/jimicon",
+    "type": "library",
+    "license": "CC-0",
+    "authors": [
+        {
+            "name": "Jim Paris",
+            "email": "jim@jtan.com"
+        }
+    ],
+    "require": {}
+}
