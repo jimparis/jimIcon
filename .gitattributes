@@ -1,0 +1,5 @@
+/COPYING export-ignore
+/.gitattributes export-ignore
+/Makefile export-ignore
+/README.md export-ignore
+/test.php export-ignore
