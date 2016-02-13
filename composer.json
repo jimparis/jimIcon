@@ -8,5 +8,11 @@
             "email": "jim@jtan.com"
         }
     ],
+    "autoload": {
+        "files": [
+            "jimIcon.php",
+            "floIcon.php"
+        ]
+    },
     "require": {}
 }
